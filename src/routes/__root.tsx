@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Career -Sathi" },
+      { name: "description", content: "CareerSaathi AI: India's Hindi-first AI platform for career guidance and job matching." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Career -Sathi" },
+      { property: "og:description", content: "CareerSaathi AI: India's Hindi-first AI platform for career guidance and job matching." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Career -Sathi" },
+      { name: "twitter:description", content: "CareerSaathi AI: India's Hindi-first AI platform for career guidance and job matching." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c288500a-5f8e-49ac-be7e-e66ce3232223/id-preview-cca8bd5d--064e939d-0f38-4842-963a-96779832252a.lovable.app-1780887068206.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c288500a-5f8e-49ac-be7e-e66ce3232223/id-preview-cca8bd5d--064e939d-0f38-4842-963a-96779832252a.lovable.app-1780887068206.png" },
     ],
     links: [
       {
