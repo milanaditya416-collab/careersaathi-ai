@@ -37,9 +37,8 @@ export function SectionTitle({
         whileInView={{ scaleX: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className={`mt-4 h-1 origin-${center ? "center" : "left"} gold-gradient-bg ${
-          center ? "mx-auto" : ""
-        } w-24 rounded-full`}
+        style={{ transformOrigin: center ? "center" : "left" }}
+        className={`mt-4 h-1 w-24 rounded-full gold-gradient-bg ${center ? "mx-auto" : ""}`}
       />
       {subtitle && (
         <motion.p

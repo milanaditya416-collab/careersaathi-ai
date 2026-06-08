@@ -184,11 +184,14 @@ export function Ranker() {
                 onChange={(e) => setForm({ ...form, experience: e.target.value })}
                 className="rounded-lg border border-gold/20 bg-navy-deep/60 px-3 py-2 text-sm outline-none focus:border-gold/60"
               >
-                {expOptions.map((o) => (
-                  <option key={o} value={o.includes("+") ? "5" : o.split("-")[1]}>
-                    {o} yrs
-                  </option>
-                ))}
+                {expOptions.map((o) => {
+                  const val = o.includes("+") ? "6" : o.split("-")[1];
+                  return (
+                    <option key={o} value={val}>
+                      {o} yrs
+                    </option>
+                  );
+                })}
               </select>
               <input
                 value={form.location}
