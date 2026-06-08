@@ -51,8 +51,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 border-t border-gold/15 pt-6 text-center text-xs text-muted-foreground">
-          © 2026 CareerSaathi AI — Built with <span className="text-gold">❤</span> for India Runs
-          Hackathon by Aditya
+          Powered by AI · Built by Aditya · <a href="mailto:adityadudu45@gmail.com" className="text-gold hover:underline">adityadudu45@gmail.com</a>
         </div>
       </div>
     </footer>
